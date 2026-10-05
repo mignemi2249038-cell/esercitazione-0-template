@@ -41,24 +41,25 @@ Che cosa posso concludere: che l'arrey ha 4 elementi: eseguibile, testo inserito
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: testo, intero e decimale, a differenza della precednete prova abbiamo utilizzato due funzioni per verificare che non ci fossero errori in input dal terminale. Scrivendo dopo l'eseguibile da terminale numeri intero o decimali in modo errato viene stampato l'errore.
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: dichiarando le variabili nel main come risultato delle funzioni applicate all'array argv[], abbiamo convertito l'input del terminale in variabili poi verificate dalle funzioni e stampate grazie a printf nel main.
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: se in input da terminale vengono inseriti valori e testo validi l'eseguibile stampa nuovamente questi argomenti in output. Se viene inserita la parola "dodici" dopo l'eseguibile, al posto di un argoimento dell'intero o del decimale il programma ci stamperà errore perché non trova un valore numerico. Mentre se viene inseirita solo la parola "dodici" nel testo e non vengono inseriti altri argomenti il codice non arriva a leggere le funzioni e ci stampa sul terminale la guida di quello che dovremmo inserire.
 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: in eco2.txt viene salvato l'output che non viene più direttamente mostrato sul terminale. Se vengono inseriti gli argomenti sbagliati sul terminale compare la frase di testo di errore e sul file non viene salvato nulla.
 
 Come un controllo automatico può riconoscere un errore:
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: se modifico il codice devo ricompilare ed eseguire nuovamente. Se il codice è giusto e quindi rimane lo stesso e devo solo cambiare gli armenti non serve ricompilare, ma solo eseguire.
+
 
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: tramite i commenti associati ad ogni file, che descrivono i progrssi svolti.
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: dal browser verifico la presenza dei file con le ultime modifiche aggiornate, apro i file per verificare ulteriormente che i codici all'interno coincidano.
